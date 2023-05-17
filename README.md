@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [View Solution Here](https://github.com/ygwilliams4/Huddle-Landing-Page)
-- Live Site URL: [View Live Site Here](https://your-live-site-url.com)
+- Live Site URL: [View Live Site Here](https://ygwilliams4.github.io/Huddle-Landing-Page)
 
 ## My process
 
