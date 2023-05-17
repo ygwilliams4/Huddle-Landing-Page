@@ -1,33 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
 
-  Build The Community Your Fans Will Love
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <img src="images/logo.svg" alt="" />
+        </div>
+      </header>
 
-  Register
+      <section>
+        <div class="grid-container">
+          <div class="col hero-image">
+            <img src="images/illustration-mockups.svg" alt="" />
+          </div>
+          <div class="col banner-text">
+            <h1>Build The Community Your Fans Will Love</h1>
+            <p>
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience. Create connections with your users as
+              you engage in genuine discussion.
+            </p>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+            <button class="btn">Register</button>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">YG Williams</a>.
+        </p>
+        <div class="social-icons">
+          <ul>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-facebook"></i></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
